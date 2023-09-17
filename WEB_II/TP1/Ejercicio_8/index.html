@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie-edge">
+            <link rel="stylesheet" href="css/style.css">
+            <title>Calculadora</title>
+            <!-- <script src="https://code.jquery.com/jquery.git.min.js"></script> -->
+        </head>
+
+        <body>
+
+            <nav id="main">
+                <ul>
+                    <li><a href="index.html">Calculadora</a></li>
+                    <li><a href="pi.php">Número Pi</a></li>
+                    <li><a href="about.html">Acerca de los autores</a></li>
+                </ul>
+            </nav>
+
+            <h1>Calculadora</h1>
+
+            <form method="GET" action="calculadora.php">
+                <label>Operando 1:</label> <input type="number" name="value1"/>
+                <label>Operando 2:</label><input type="number" name="value2"/>
+                <select name="operation">
+                    <option value="addition">Sumar</option>
+                    <option value="substract">Restar</option>
+                    <option value="multiply">Multiplicar</option>
+                    <option value="divide">Dividir</option>
+                </select>
+                <input type = "submit">
+            </form>
+        </body>
+    </html>

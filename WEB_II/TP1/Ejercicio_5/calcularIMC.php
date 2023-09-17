@@ -9,7 +9,7 @@
         $imc = $weight/($high ** 2);
         categorizar($imc);
         echo('<br>');
-        echo('Su indice de masa corporal es de' . $imc );
+        echo('Su indice de masa corporal es de ' . $imc );
         
     }
 
